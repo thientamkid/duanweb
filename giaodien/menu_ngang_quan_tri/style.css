@@ -1,0 +1,127 @@
+div.ggg_8
+{
+	width:487px;
+	border:1px solid #cccccc;
+	border-left:0px solid #cccccc;
+	border-right:0px solid #cccccc;
+	height:26px;
+	float:left;
+	background:#3366FF;
+}
+a.nut_thoat:link { font-size: 16px; text-decoration: none;  color: #0b55c4; }
+a.nut_thoat:visited { font-size: 16px; color: #0b55c4; text-decoration: none; }
+a.nut_thoat:hover { font-size: 16px; text-decoration: none; color: #0a3b85;  font-style: normal; }
+ul.menu_ngang
+{
+	position:relative;
+	/*width:988px;*/
+	width:499px;
+	height:26px;
+	list-style:none;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	/*background-image:url('../hinhanh/dungchung/chromebg.gif');*/
+	background:#f0f0f0;
+	border:1px solid #cccccc;
+	border-right:0px solid #cccccc;
+	border-left:0px solid #cccccc;
+	text-align:left;
+	z-index:1000;
+	float:left;
+
+
+
+}
+ul.menu_ngang li
+{
+	position:relative;
+	float:left;
+	z-index:1000;
+	/*visibility:		inherit;*/
+
+}
+ul.menu_ngang li a
+{
+	position:relative;
+	display:inline-block;
+	padding:0px 20px 0px 8px;
+	text-decoration: none;
+	color:black;
+	font-weight:bold;
+	/*border:1px solid #999999;*/
+	border-left:1px solid #ffffff;
+	border-right:1px solid #d8d8d8;
+	border-bottom:1px solid #d8d8d8;
+	border-top:1px solid #d8d8d8;
+	min-height:25px;
+	line-height:25px;
+	z-index:1000;
+
+}
+ul.menu_ngang li ul
+{
+	position:absolute;
+	padding:0px 0px 0px 0px;
+	background:#f0f0f0;
+	list-style:none;
+	border-left:1px solid #cccccc;
+	margin:0px 0px 0px -1px;
+	border-top:1px solid #cccccc;
+	top:26px;
+	left:0px;
+	z-index:1000;
+
+
+	display:none;
+	/*margin:5px 0px 0px 0px;*/
+
+}
+ul.menu_ngang li ul li
+{
+	clear:left;
+	position:relative;
+	z-index:1000;
+
+}
+ul.menu_ngang li ul li a
+{
+	position:relative;
+	width:170px;
+	border:1px solid #cccccc;
+
+	border-top:1px solid #ffffff;
+	z-index:1000;
+	/*line-height:normal*/
+}
+ul.menu_ngang li ul li ul
+{
+	margin:0px 0px 0px 200px;
+	z-index:1000;
+	top:0px;
+	left:0px;
+
+
+}
+img.img_mnn_tx
+{
+	position:absolute;
+	top:50%;
+	margin-top:-3px;
+	right:8px;
+	z-index:1000;
+}
+img.img_mnn_tn
+{
+	position:absolute;
+
+	top:50%;
+	margin-top:-3px;
+	right:8px;
+	z-index:1000;
+}
+ul.menu_ngang li a:hover
+{
+	background:#e7eddf;
+	z-index:1000;
+	border:1px solid #6d9d2e;
+}
